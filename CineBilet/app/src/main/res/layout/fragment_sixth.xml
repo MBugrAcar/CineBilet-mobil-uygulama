@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthFragment">
+
+    <!-- GridLayout ile 5x8 düzen -->
+
+    <!-- Önceki sayfaya gitme butonu -->
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="100dp"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="8"
+        app:layout_constraintBottom_toTopOf="@id/buttonThird"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <!-- Koltuk Butonları (Seat 1 - Seat 40) -->
+        <Button
+            android:id="@+id/buttonSeat1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat   1"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat   2"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat   3"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat   4"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat   5"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat   6"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat   7"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat   8"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat   9"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 10"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 11"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 12"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 13"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 14"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 15"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 16"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 17"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 18"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 19"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 20"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 21"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 22"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 23"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 24"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 25"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 26"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 27"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 28"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 29"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 30"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 31"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 32"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 33"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat34"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 34"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 35"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat36"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 36"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 37"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat38"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 38"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat39"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 39"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSeat40"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seat 40"
+            android:textColor="@android:color/white" />
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buttonSixth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="SATIN AL"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <FrameLayout
+        android:layout_width="378dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="17dp"
+        android:background="#9CA2D7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="                        PERDE"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="180dp"
+        android:text="13:00"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="3dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

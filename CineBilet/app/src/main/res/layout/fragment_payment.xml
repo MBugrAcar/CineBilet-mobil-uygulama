@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentFragment">
+
+    <!-- Seçilen Koltuklar TextView -->
+    <TextView
+        android:id="@+id/textViewSelectedSeats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seçilen Koltuklar: "
+        android:textSize="16sp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="8dp"/>
+
+    <!-- Radio Group: Bilet Türü Seçimi -->
+    <RadioGroup
+        android:id="@+id/radioGroupTicketType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewSelectedSeats"
+        android:orientation="horizontal"
+        android:layout_marginTop="32dp">
+
+        <RadioButton
+            android:id="@+id/radioStudentTicket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Öğrenci Bileti"
+            android:padding="8dp"/>
+
+        <RadioButton
+            android:id="@+id/radioFullTicket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tam Bilet"
+            android:padding="8dp"/>
+    </RadioGroup>
+
+    <!-- Toplam Fiyat -->
+    <TextView
+        android:id="@+id/textViewTotalPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:padding="8dp"
+        android:text="Toplam Tutar: 0₺"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radioGroupTicketType" />
+
+    <!-- Ödeme Onay Butonu -->
+    <Button
+        android:id="@+id/button_Payment"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:padding="12dp"
+        android:text="Ödemeyi Onayla"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewTotalPrice" />
+
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:maxLength="16"
+        android:hint="Kart Numarası"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTotalPrice" />
+
+    <EditText
+        android:id="@+id/editTextNumber2"
+        android:layout_width="132dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:maxLength="3"
+        android:hint="CVV"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+
+    <EditText
+        android:id="@+id/editTextNumber3"
+        android:layout_width="194dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:maxLength="10"
+        android:hint="Son Kullanma Tarihi"
+        app:layout_constraintStart_toEndOf="@+id/editTextNumber2"
+        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
